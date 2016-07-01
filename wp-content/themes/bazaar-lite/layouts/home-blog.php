@@ -2,7 +2,7 @@
 	
     <div class="row" id="blog" >
 
-	<?php if ( ( bazaarlite_template('sidebar') == "left-sidebar" ) || ( bazaarlite_template('sidebar') == "right-sidebar" ) ) : ?>
+ <?php   if ( ( bazaarlite_template('sidebar') == "left-sidebar" ) || ( bazaarlite_template('sidebar') == "right-sidebar" ) ) : ?>
         
         <div class="<?php echo bazaarlite_template('span') .' '. bazaarlite_template('sidebar'); ?> blog"> 
        

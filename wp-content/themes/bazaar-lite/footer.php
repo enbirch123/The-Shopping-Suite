@@ -19,8 +19,7 @@
                                 <?php else: ?>
                                   <?php _e('Copyright','bazaar-lite'); ?> <?php echo get_bloginfo("name"); ?> <?php echo date_i18n("Y"); ?> 
                                 <?php endif; ?> 
-                                | <?php _e('Theme by','bazaar-lite'); ?> <a href="<?php echo esc_url('https://www.themeinprogress.com/'); ?>" target="_blank">Theme in Progress</a> |
-                                <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'bazaar-lite' ) ); ?>" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'bazaar-lite' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'bazaar-lite' ), 'WordPress' ); ?></a>
+                                
                             
                             </p>
 

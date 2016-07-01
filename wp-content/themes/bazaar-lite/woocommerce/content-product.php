@@ -56,7 +56,7 @@ $woocommerce_loop['loop']++;
         
 			<?php do_action( 'woocommerce_before_shop_loop_item_title' ); ?>
         
- 			<h3 class="product-title"><a href="<?php echo esc_url(get_the_permalink()); ?>"><?php the_title(); ?></a></h3>
+ 			<h4 class="product-title"><a href="<?php echo esc_url(get_the_permalink()); ?>"><?php the_title(); ?></a></h4>
                 
 			<?php do_action( 'woocommerce_after_shop_loop_item_title' ); ?>
         

@@ -618,9 +618,9 @@ p.demo_store {
 		font-weight: 700;
 		border-radius: 3px;
 		left: auto;
-		color: $secondarytext;
+		color: #cec19d;
 		background-color: $secondary;
-		border: 0;
+		border: #cec19d;
 		white-space: nowrap;
 		display: inline-block;
 		background-image: none;
@@ -665,7 +665,7 @@ p.demo_store {
 
 		&.alt {
 			background-color: $primary;
-			color: $primarytext;
+			color: #cec19d;
 			-webkit-font-smoothing: antialiased;
 
 			&:hover {
@@ -810,7 +810,7 @@ p.demo_store {
 				}
 
 				#respond {
-					border: 1px solid darken( $secondary, 3% );
+					border: 1px solid darken( #cec19d, 3% );
 					border-radius: 4px;
 					padding: 1em 1em 0;
 					margin: 20px 0 0 50px;
